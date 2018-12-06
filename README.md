@@ -8,6 +8,7 @@ It was mainly tested on HTTPS and SMTP traffic, thus bugs may be found and new f
 I'm not a programmer and this code was written very quickly (at least first version of the project - this information may be outdated in near future;). If you have any concerns regarding the code or if you would like to just tell me how bad it is - go ahead and post an issue. 
 
 **Requirements:**
+
   Python 2.7
   Python scapy
   Wireshark + tshark

@@ -8,17 +8,24 @@ It was mainly tested on HTTPS and SMTP traffic, thus bugs may be found and new f
 I'm not a programmer and this code was written very quickly (at least first version of the project - this information may be outdated in near future;). If you have any concerns regarding the code or if you would like to just tell me how bad it is - go ahead and post an issue. 
 
 **Requirements:**
-  Python 2.7
-  Python scapy
-  Wireshark + tshark
-  Wireshark compiled with GnuTLS >= 2.2.2
+
+  - Python 2.7
+  
+  - Python scapy
+  
+  - Wireshark + tshark
+  
+  - Wireshark compiled with GnuTLS >= 2.2.2
 
 **What do I need to decrypt .pcap?**
 
 You need a file with logged master secrets. More details:
-  https://wiki.wireshark.org/SSL#Using_the_.28Pre.29-Master-Secret
-  https://sharkfesteurope.wireshark.org/assets/presentations17eu/15.pdf
-  https://jimshaver.net/2015/02/11/decrypting-tls-browser-traffic-with-wireshark-the-easy-way/
+  
+  - https://wiki.wireshark.org/SSL#Using_the_.28Pre.29-Master-Secret
+  
+  - https://sharkfesteurope.wireshark.org/assets/presentations17eu/15.pdf
+  
+  - https://jimshaver.net/2015/02/11/decrypting-tls-browser-traffic-with-wireshark-the-easy-way/
  
 **How does it work?**
 

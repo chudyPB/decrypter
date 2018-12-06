@@ -42,7 +42,7 @@ Approximately, test_pcap.txt will be about **30 times bigger** than the test_pca
 
 **Usage**
 
-`
+```
 python decrypter.py -i <input.pcap> -o <output.pcap> options
 
 Command line arguments:
@@ -57,4 +57,4 @@ Command line arguments:
 						c) -p port1,port2,...,portN (specific ports, eg. 21,22,25)
 -s, --ssl-only					If set, output pcap will not include unencrypted traffic.
 -v, --version 					Run tshark test (if installed + GnuTLS + GnuTLS version).
-`
+```

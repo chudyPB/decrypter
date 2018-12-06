@@ -10,15 +10,21 @@ I'm not a programmer and this code was written very quickly (at least first vers
 **Requirements:**
 
   Python 2.7
+  
   Python scapy
+  
   Wireshark + tshark
+  
   Wireshark compiled with GnuTLS >= 2.2.2
 
 **What do I need to decrypt .pcap?**
 
 You need a file with logged master secrets. More details:
+  
   https://wiki.wireshark.org/SSL#Using_the_.28Pre.29-Master-Secret
+  
   https://sharkfesteurope.wireshark.org/assets/presentations17eu/15.pdf
+  
   https://jimshaver.net/2015/02/11/decrypting-tls-browser-traffic-with-wireshark-the-easy-way/
  
 **How does it work?**
